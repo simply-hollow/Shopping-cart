@@ -61,7 +61,7 @@ let cart=`<tr>
 			<th>Net price</th>
 			<th>Total taxes</th>
 			<th>Price(including taxes)</th>
-		</tr>`;
+		</tr>`
 
 products.forEach(function(product){
 	cart+= `<tr>
