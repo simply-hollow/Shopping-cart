@@ -78,7 +78,7 @@ products.forEach(function(product){
 });
 
 let cartTotal=`Total price: ${sum.toFixed(2)}`;
-let cartWeight=`Total Packet weight: ${weight} lbs`;
+let cartWeight=`Total Packet weight: ${weight.toFixed(3)} lbs`;
 productsElement.innerHTML= cart;
 productsTotal.innerHTML= cartTotal;
 productsWeight.innerHTML= cartWeight;

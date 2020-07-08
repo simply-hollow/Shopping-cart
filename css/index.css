@@ -1,4 +1,5 @@
 *{
+	margin: 0;
 	--headerfont: 1.5rem;
 	--headerpadding: 1.0rem;
 	--footerfont: 0.75rem;
@@ -21,7 +22,7 @@
 	text-align: center;
 	/* Check this step as not completely satisfies */
 	height: calc( 
-				79.5vh
+				92.5vh
 			 	- var(--headerfont)
 			  	- (2*var(--headerpadding))
 			   	- var(--footerfont)
