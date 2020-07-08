@@ -1,0 +1,73 @@
+*{
+	--headerfont: 1.5rem;
+	--headerpadding: 1.0rem;
+	--footerfont: 0.75rem;
+	--footerpadding: 1.0rem;
+}
+
+.header{
+	font-size: var(--headerfont);
+	padding: var(--headerpadding);
+	font-style: italic;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+.main{
+	font-size: 1.5rem;
+	padding: 1.25rem;
+	font-style: italic;	
+	text-align: center;
+	/* Check this step as not completely satisfies */
+	height: calc( 
+				79.5vh
+			 	- var(--headerfont)
+			  	- (2*var(--headerpadding))
+			   	- var(--footerfont)
+			    - (2*var(--footerpadding))
+		    );
+	overflow-y: auto;
+}
+.footer{
+	font-size: var(--footerfont);
+	padding: var(--footerpadding);
+	font-style: italic;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+table {
+  width:100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: left;
+}
+
+#prod tr:nth-child(even) {
+  background-color: #eff;
+}
+#prod tr:nth-child(odd) {
+ background-color: #fff;
+}
+#prod th {
+  background-color: black;
+  color: white;
+}
+
+#totaled{
+	text-align: center;
+	background-color: yellow;
+	width: auto;
+}
+
+#weighted{
+	text-align: center;
+	background-color: pink;
+	width: auto;
+}
